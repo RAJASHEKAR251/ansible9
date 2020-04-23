@@ -2,8 +2,7 @@
 - hosts: appserver
   become: yes
   tasks:
-  - name: install tomcat
+  - name: install apache tomcat
     apt:
      name: tomcat
      state: latest
-     
