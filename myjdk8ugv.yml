@@ -1,5 +1,5 @@
 ---
-- host: appserver
+- hosts: appserver
   become: yes
   tasks:
   - name: install jdk8
