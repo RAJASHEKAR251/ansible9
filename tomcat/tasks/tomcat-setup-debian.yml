@@ -12,7 +12,7 @@
 
 - name: Install basic packages
   package:
-    name: ['vim','aptitude','bash-completion','tmux','tree','htop','wget','unzip','curl','git']
+    name: [vim,aptitude,bash-completion,tmux,tree,htop,wget,unzip,curl,git]
     state: present
     update_cache: yes
 
